@@ -1,0 +1,19 @@
+{
+  "name": "npm-scripts-tat",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate specific characteristics of npm scripts.",
+  "scripts": {
+    "pretest": "echo 'Setting up test environment...'",
+    "test": "echo 'Testing...'",
+    "posttest": "echo 'Shutting down test environment...'",
+    "start": "echo 'Starting the app...'",
+    "build": "echo 'Building artifacts...'",
+    "postbuild": "echo 'Publishing the build...'",
+    "start:and:test": "npm start && npm run test",
+    "banana": "echo banana",
+    "postbanana": "echo 🍌"
+  },
+  "keywords": ["npm-scripts", "npm", "scripts"],
+  "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT"
+}
