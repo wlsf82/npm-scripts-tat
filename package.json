@@ -8,10 +8,12 @@
     "posttest": "echo 'Shutting down test environment...'",
     "start": "echo 'Starting the app...'",
     "build": "echo 'Building artifacts...'",
-    "postbuild": "echo 'Publishing the build...'",
+    "postbuild": "echo 'Build complete!'",
     "start:and:test": "npm start && npm run test",
-    "banana": "echo banana",
-    "postbanana": "echo 🍌"
+    "deploy": "echo 'Deploying the built artifacts...'",
+    "postdeploy": "echo 'Deployment complete!'",
+    "banana": "echo 'banana'",
+    "postbanana": "echo '🍌'"
   },
   "keywords": ["npm-scripts", "npm", "scripts"],
   "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
